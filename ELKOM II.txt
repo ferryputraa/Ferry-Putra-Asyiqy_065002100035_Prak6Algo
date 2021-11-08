@@ -1,3 +1,11 @@
+print("######################################################")
+print(" ###	                                                 ")
+print(" ###  ##   #######   #########   #########   ###   ###")
+print(" #######  ###   ###   ###   ###   ###   ###  ###   ###")
+print(" ###  ##  ########    ###         ###         ########")
+print(" ###      ###         ###         ###              ###")
+print("#####      #######    ###         ###        ######## ")
+
 def menu():
     print ("1. Kubus")
     print ("2. Balok")
@@ -38,7 +46,7 @@ def bola():
 
 loop = True
 while(loop):
-    print("\n")
+    print ("")
     print ("KALKULATOR LUAS PERMUKAAN BANGUN RUANG")
     menu()
     pilih = input("Pilih menu yang tersedia : ")
