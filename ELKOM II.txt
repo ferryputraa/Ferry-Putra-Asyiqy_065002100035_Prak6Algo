@@ -18,6 +18,7 @@ def balok():
     t = int(input("Masukkan tinggi  : "))
     rumus = 2*((p*l)+(p*t)+(l*t))
     print("Luas permukaan balok dengan panjang",p,",","lebar",l,",","tinggi",t,"adalah",(rumus))
+    
 def tabung():
     r = int(input("Masukkan jari-jari : "))
     t = int(input("Masukkan tingggi   : "))
