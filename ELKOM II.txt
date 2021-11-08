@@ -18,7 +18,6 @@ def kubus():
     s = int(input("Masukkan rusuk : "))
     rumus = 6*(s**2)
     print("Luas permukaan kubus dengan rusuk",s,"adalah",(rumus))
-    return 
 
 def balok():
     p = int(input("Masukkan panjang : "))
