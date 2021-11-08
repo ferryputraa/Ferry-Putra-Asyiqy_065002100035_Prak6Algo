@@ -1,18 +1,18 @@
-print("######################################################")
-print(" ###	                                                 ")
-print(" ###  ##   #######   #########   #########   ###   ###")
-print(" #######  ###   ###   ###   ###   ###   ###  ###   ###")
-print(" ###  ##  ########    ###         ###         ########")
-print(" ###      ###         ###         ###              ###")
-print("#####      #######    ###         ###        ######## ")
+print("###################################################### ")
+print(" ###	                                              ")
+print(" ###  ##   #######   #########   #########   ###   ### ")
+print(" #######  ###   ###   ###   ###   ###   ###  ###   ### ")
+print(" ###  ##  ########    ###         ###         ######## ")
+print(" ###      ###         ###         ###              ### ")
+print("#####      #######    ###         ###        ########  ")
 
 def menu():
-    print ("1. Kubus")
-    print ("2. Balok")
-    print ("3. Tabung")
-    print ("4. Kerucut")
-    print ("5. Bola")
-    print ("6. Exit")
+    print("1. Kubus")
+    print("2. Balok")
+    print("3. Tabung")
+    print("4. Kerucut")
+    print("5. Bola")
+    print("6. Exit")
 
 def kubus():
     s = int(input("Masukkan rusuk : "))
@@ -46,8 +46,8 @@ def bola():
 
 loop = True
 while(loop):
-    print ("")
-    print ("KALKULATOR LUAS PERMUKAAN BANGUN RUANG")
+    print("")
+    print("KALKULATOR LUAS PERMUKAAN BANGUN RUANG")
     menu()
     pilih = input("Pilih menu yang tersedia : ")
     if pilih == "1":
@@ -61,7 +61,7 @@ while(loop):
     elif pilih == "5":
         bola()
     elif pilih == "6":
-        print ("TERIMA KASIH!")
+        print("TERIMA KASIH!")
         exit()
     else:
         print("Pilihan tidak tersedia")
